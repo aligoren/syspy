@@ -1,0 +1,387 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"C",
+				"CountCodeLine"
+			],
+			[
+				"code",
+				"count_code_line"
+			],
+			[
+				"co",
+				"count_code_line"
+			],
+			[
+				"len",
+				"lenDir"
+			],
+			[
+				"pro",
+				"projectName"
+			],
+			[
+				"pr",
+				"projectName"
+			],
+			[
+				"d",
+				"dirName"
+			],
+			[
+				"ba",
+				"base"
+			],
+			[
+				"base",
+				"basename"
+			],
+			[
+				"list",
+				"listFolder"
+			],
+			[
+				"city",
+				"cityList"
+			],
+			[
+				"ci",
+				"cityLists"
+			],
+			[
+				"fu",
+				"fuzzy"
+			],
+			[
+				"le",
+				"len"
+			],
+			[
+				"f",
+				"fuzzy_substring"
+			],
+			[
+				"pl",
+				"plainText1"
+			],
+			[
+				"p",
+				"plainText"
+			],
+			[
+				"babi",
+				"babil_square_root_main"
+			],
+			[
+				"th",
+				"three_plus_one_main"
+			],
+			[
+				"ha",
+				"hanoi_tower_algorithm_main"
+			],
+			[
+				"ru",
+				"ruler_algorithm_main"
+			],
+			[
+				"r",
+				"ruler_algorithm"
+			],
+			[
+				"n",
+				"n2"
+			],
+			[
+				"per",
+				"perfect_number_main"
+			],
+			[
+				"mer",
+				"mersennes_primes_main"
+			],
+			[
+				"e",
+				"e_number_main"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"_",
+				"_icerikAraligi"
+			],
+			[
+				"http",
+				"httpUstBilgi_"
+			],
+			[
+				"t",
+				"tireninYeri"
+			],
+			[
+				"httpU",
+				"httpUstBilgiSatiri"
+			],
+			[
+				"htt",
+				"httpUstBilgi_"
+			],
+			[
+				"su",
+				"substr"
+			],
+			[
+				"h",
+				"httpUstBilgiSatiri"
+			],
+			[
+				"ss",
+				"ssHTTPYanitSatiri"
+			],
+			[
+				"s",
+				"stringstream"
+			],
+			[
+				"b",
+				"beginend	$1.begin(), $1.end()"
+			],
+			[
+				"ilk",
+				"ilkYanCizgi"
+			],
+			[
+				"ad",
+				"adres_"
+			],
+			[
+				"str",
+				"string"
+			],
+			[
+				"arg",
+				"argc"
+			],
+			[
+				"ma",
+				"main	main()"
+			],
+			[
+				"inc",
+				"include"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"package i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/ali/Desktop/site/posts/name-parser.md",
+		"/C/Users/ali/Desktop/Projeler/NameParser/README.md",
+		"/C/Users/ali/Desktop/site/posts/projects.md",
+		"/C/Users/ali/Desktop/site/posts/python-logging-library.md",
+		"/C/Users/ali/Desktop/Projeler/flask_test/README.md",
+		"/C/Users/ali/Desktop/Projeler/count_lines/README.md",
+		"/C/Users/ali/Desktop/pyalgo/count.py",
+		"/C/Users/ali/Desktop/pyalgo/city_matching.py",
+		"/C/Users/ali/Desktop/site/posts/kolay-yoldan-flask.md",
+		"/C/Users/ali/Desktop/pyalgo/babil_square_root.py",
+		"/C/Users/ali/AppData/Roaming/Sublime Text 3/Packages/User/MarkdownPreview.sublime-settings",
+		"/C/Users/ali/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/ali/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/MultiMarkdown.sublime-settings",
+		"/C/Users/ali/Desktop/pyalgo/det.py",
+		"/C/Users/ali/Desktop/pyalgo/3plus1.py",
+		"/C/Users/ali/Desktop/pyalgo/hanoi_tower_algorithm.py",
+		"/C/Users/ali/Desktop/site/posts/towers-of-hanoi-algoritm.md",
+		"/C/Users/ali/Desktop/site/posts/euler-number-python.md",
+		"/C/Users/ali/Desktop/site/posts/hamming-numbers.md",
+		"/C/Users/ali/Desktop/pyalgo/hamming_numbers.py",
+		"/C/Users/ali/Desktop/pyalgo/ruler_algorithm.py",
+		"/C/Users/ali/Desktop/site/posts/fibonacci-numbers.md",
+		"/C/Users/ali/Desktop/site/posts/php-onbellek-kutuphanesi.md",
+		"/C/Users/ali/Desktop/pyalgo/golden_ratio.py",
+		"/C/Users/ali/Desktop/pyalgo/perfect_numbers.py",
+		"/C/Users/ali/Desktop/pyalgo/e_number.py",
+		"/C/Users/ali/Desktop/pyalgo/mersennes_primes.py",
+		"/C/Users/ali/Desktop/pyalgo/abc.txt",
+		"/C/Users/ali/Desktop/pyalgo/fibo.py",
+		"/C/Users/ali/Desktop/pyalgo/prime_numbers.py",
+		"/C/Users/ali/Desktop/pyalgo/tex.txt",
+		"/C/Users/ali/Desktop/pyalgo/twine_primes.py",
+		"/C/Users/ali/Desktop/pyalgo/bernoulli_num.py",
+		"/C/Users/ali/Desktop/goalgo/main.go",
+		"/C/Users/ali/Desktop/gotest/main.go",
+		"/C/Users/ali/Desktop/gotest/tep/tep.go",
+		"/C/Users/ali/Desktop/aln/aln.cpp",
+		"/C/Users/ali/Desktop/aln/mains",
+		"/C/Users/ali/Desktop/aln/main.n",
+		"/C/Users/ali/Desktop/aln/main.c",
+		"/C/Users/ali/Desktop/aln/main.kxy",
+		"/C/Users/ali/Desktop/zembil/lib/Network/HttpUstBilgiAyikla.h",
+		"/C/Users/ali/Desktop/zembil/lib/Network/HttpUstBilgiAyikla.cpp",
+		"/C/Users/ali/Desktop/zembil/main.cpp",
+		"/C/Users/ali/Desktop/zembil/lib/Network/HttpUstBilgi.h",
+		"/C/Users/ali/Desktop/zembil/lib/Network/Adres.cpp",
+		"/C/Users/ali/Desktop/zembil/lib/Network/Adres.h",
+		"/C/Users/ali/Desktop/zembil/lib/Download/testinc.hpp",
+		"/C/Users/ali/Desktop/zembil/lib/Download/utils.hpp"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"y",
+			"456"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "syspy.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 226.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
