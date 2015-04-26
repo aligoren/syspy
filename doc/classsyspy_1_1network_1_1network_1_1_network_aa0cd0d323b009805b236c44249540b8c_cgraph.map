@@ -1,0 +1,7 @@
+<map id="syspy.network.network.Network.__init__" name="syspy.network.network.Network.__init__">
+<area shape="rect" id="node2" href="$classsyspy_1_1disk_1_1disk_1_1_disk.html#a313315d337371c96836f5f12dbdc251b" title="syspy.disk.disk.Disk.bytes2human" alt="" coords="573,5,799,32"/>
+<area shape="rect" id="node3" href="$classsyspy_1_1memory_1_1memory_1_1_memory.html#a68824ab59f87d5ea488f7514d2cbae07" title="syspy.memory.memory.Memory.bytes2human" alt="" coords="540,85,832,112"/>
+<area shape="rect" id="node4" href="$classsyspy_1_1network_1_1network_1_1_network.html#a0219ab72a4b9e91ed0738145ba867059" title="syspy.network.network.Network.bytes2human" alt="" coords="542,140,830,167"/>
+<area shape="rect" id="node5" href="$classsyspy_1_1network_1_1network_1_1_network.html#a621498d23421aa83ded5452da3351bb2" title="syspy.network.network.Network.get\lNetIoCounters" alt="" coords="264,93,492,134"/>
+<area shape="rect" id="node6" href="$classsyspy_1_1network_1_1network_1_1_network.html#a7e7f5779600fbbe5ba5676bbcb1c8306" title="syspy.network.network.Network.get\lNetConnections" alt="" coords="264,210,492,251"/>
+</map>

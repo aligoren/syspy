@@ -1,0 +1,8 @@
+<map id="syspy.cpu.cpu.CPU.__init__" name="syspy.cpu.cpu.CPU.__init__">
+<area shape="rect" id="node2" href="$classsyspy_1_1cpu_1_1cpu_1_1_c_p_u.html#ac0a482d22e69765e6a69e86e7839ba84" title="syspy.cpu.cpu.CPU.getCpu\lTimes" alt="" coords="209,5,391,47"/>
+<area shape="rect" id="node3" href="$classsyspy_1_1cpu_1_1cpu_1_1_c_p_u.html#aa6cd2aa5cb3fe6dd3f867ed5bab927a1" title="syspy.cpu.cpu.CPU.getCpu\lPercent" alt="" coords="209,71,391,112"/>
+<area shape="rect" id="node4" href="$classsyspy_1_1cpu_1_1cpu_1_1_c_p_u.html#a1575769a9a817fdf9971ea1fe4794e3b" title="syspy.cpu.cpu.CPU.cpuPercent\lPerCpu" alt="" coords="196,136,404,177"/>
+<area shape="rect" id="node5" href="$classsyspy_1_1cpu_1_1cpu_1_1_c_p_u.html#a7c26306a84d5fd4831706a0214eb9c57" title="syspy.cpu.cpu.CPU.cpuTimes\lPercent" alt="" coords="201,201,399,243"/>
+<area shape="rect" id="node6" href="$classsyspy_1_1cpu_1_1cpu_1_1_c_p_u.html#a637b1192127a9d5c973c2f2d4cc549b1" title="syspy.cpu.cpu.CPU.getCpu\lCount" alt="" coords="209,267,391,308"/>
+<area shape="rect" id="node7" href="$classsyspy_1_1cpu_1_1cpu_1_1_c_p_u.html#a10681476a422b2e22794c93c44a1fb5c" title="syspy.cpu.cpu.CPU.getCpu\lAffinity" alt="" coords="209,332,391,373"/>
+</map>

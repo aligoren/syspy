@@ -1,0 +1,13 @@
+<map id="syspy.disk.disk.Disk.bytes2human" name="syspy.disk.disk.Disk.bytes2human">
+<area shape="rect" id="node2" href="$classsyspy_1_1disk_1_1disk_1_1_disk.html#a44fcdcca4accaaf3c6ad5cfef2d82bc2" title="syspy.disk.disk.Disk.\l__init__" alt="" coords="593,50,739,91"/>
+<area shape="rect" id="node3" href="$classsyspy_1_1disk_1_1disk_1_1_disk.html#a20b07d3896e39830c8da3b0ff4233946" title="syspy.disk.disk.Disk.get\lDiskPartitions" alt="" coords="312,50,477,91"/>
+<area shape="rect" id="node4" href="$classsyspy_1_1disk_1_1disk_1_1_disk.html#aa5031ccc57ed2b0eb75d19f2fe0389c1" title="syspy.disk.disk.Disk.get\lDiskUsage" alt="" coords="312,115,477,156"/>
+<area shape="rect" id="node5" href="$classsyspy_1_1memory_1_1memory_1_1_memory.html#a6409f2471160780d6906b822347a5bd4" title="syspy.memory.memory.Memory.\l__init__" alt="" coords="559,331,773,372"/>
+<area shape="rect" id="node6" href="$classsyspy_1_1memory_1_1memory_1_1_memory.html#abfdf1a4c9ec9ed6d2bddb12090b15232" title="syspy.memory.memory.Memory.get\lVirtualMemory" alt="" coords="279,232,511,274"/>
+<area shape="rect" id="node7" href="$classsyspy_1_1memory_1_1memory_1_1_memory.html#a50f754815bd4d9d0267990c4a613c01d" title="syspy.memory.memory.Memory.get\lSwapMemory" alt="" coords="279,298,511,339"/>
+<area shape="rect" id="node8" href="$classsyspy_1_1memory_1_1memory_1_1_memory.html#adaccc1e58536f72cb342960c71e60e73" title="syspy.memory.memory.Memory.get\lMemoryInfo" alt="" coords="279,363,511,404"/>
+<area shape="rect" id="node9" href="$classsyspy_1_1memory_1_1memory_1_1_memory.html#ab0240bf453254e752e9b8ddd4173bfbb" title="syspy.memory.memory.Memory.get\lMemoryInfoEx" alt="" coords="279,428,511,470"/>
+<area shape="rect" id="node10" href="$classsyspy_1_1memory_1_1memory_1_1_memory.html#a1634825731f1f7aef7fd74b76d7d552b" title="syspy.memory.memory.Memory.get\lMemoryMap" alt="" coords="279,494,511,535"/>
+<area shape="rect" id="node11" href="$classsyspy_1_1network_1_1network_1_1_network.html#aa0cd0d323b009805b236c44249540b8c" title="syspy.network.network.Network.\l__init__" alt="" coords="561,582,771,623"/>
+<area shape="rect" id="node12" href="$classsyspy_1_1network_1_1network_1_1_network.html#a621498d23421aa83ded5452da3351bb2" title="syspy.network.network.Network.get\lNetIoCounters" alt="" coords="281,611,509,652"/>
+</map>

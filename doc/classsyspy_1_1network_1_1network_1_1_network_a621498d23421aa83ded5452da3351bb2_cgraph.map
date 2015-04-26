@@ -1,0 +1,5 @@
+<map id="syspy.network.network.Network.getNetIoCounters" name="syspy.network.network.Network.getNetIoCounters">
+<area shape="rect" id="node2" href="$classsyspy_1_1disk_1_1disk_1_1_disk.html#a313315d337371c96836f5f12dbdc251b" title="syspy.disk.disk.Disk.bytes2human" alt="" coords="315,5,540,32"/>
+<area shape="rect" id="node3" href="$classsyspy_1_1memory_1_1memory_1_1_memory.html#a68824ab59f87d5ea488f7514d2cbae07" title="syspy.memory.memory.Memory.bytes2human" alt="" coords="281,56,573,83"/>
+<area shape="rect" id="node4" href="$classsyspy_1_1network_1_1network_1_1_network.html#a0219ab72a4b9e91ed0738145ba867059" title="syspy.network.network.Network.bytes2human" alt="" coords="283,107,571,133"/>
+</map>

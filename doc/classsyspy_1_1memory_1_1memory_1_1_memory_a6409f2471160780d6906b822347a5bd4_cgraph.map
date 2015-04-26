@@ -1,0 +1,10 @@
+<map id="syspy.memory.memory.Memory.__init__" name="syspy.memory.memory.Memory.__init__">
+<area shape="rect" id="node2" href="$classsyspy_1_1disk_1_1disk_1_1_disk.html#a313315d337371c96836f5f12dbdc251b" title="syspy.disk.disk.Disk.bytes2human" alt="" coords="581,153,807,180"/>
+<area shape="rect" id="node3" href="$classsyspy_1_1memory_1_1memory_1_1_memory.html#a68824ab59f87d5ea488f7514d2cbae07" title="syspy.memory.memory.Memory.bytes2human" alt="" coords="548,228,840,254"/>
+<area shape="rect" id="node4" href="$classsyspy_1_1memory_1_1memory_1_1_memory.html#abfdf1a4c9ec9ed6d2bddb12090b15232" title="syspy.memory.memory.Memory.get\lVirtualMemory" alt="" coords="268,47,500,88"/>
+<area shape="rect" id="node5" href="$classsyspy_1_1memory_1_1memory_1_1_memory.html#a50f754815bd4d9d0267990c4a613c01d" title="syspy.memory.memory.Memory.get\lSwapMemory" alt="" coords="268,112,500,154"/>
+<area shape="rect" id="node6" href="$classsyspy_1_1memory_1_1memory_1_1_memory.html#adaccc1e58536f72cb342960c71e60e73" title="syspy.memory.memory.Memory.get\lMemoryInfo" alt="" coords="268,178,500,219"/>
+<area shape="rect" id="node7" href="$classsyspy_1_1memory_1_1memory_1_1_memory.html#ab0240bf453254e752e9b8ddd4173bfbb" title="syspy.memory.memory.Memory.get\lMemoryInfoEx" alt="" coords="268,243,500,284"/>
+<area shape="rect" id="node8" href="$classsyspy_1_1memory_1_1memory_1_1_memory.html#af0fd11c2d0054a4f2d3e0d3dcbca1c4f" title="syspy.memory.memory.Memory.get\lMemoryPercent" alt="" coords="268,426,500,467"/>
+<area shape="rect" id="node9" href="$classsyspy_1_1memory_1_1memory_1_1_memory.html#a1634825731f1f7aef7fd74b76d7d552b" title="syspy.memory.memory.Memory.get\lMemoryMap" alt="" coords="268,308,500,350"/>
+</map>
