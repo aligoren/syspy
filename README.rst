@@ -7,6 +7,14 @@ bir kütüphanenin daha da basitleştirilmiş halidir.
 Kullanmadan önce eğer gerekli kütüphane yok ise onu kurmanız gerekli.
 **syspy**, gösterdiği verileri **psutil** ile sağlar.
 
+`Manual Page <https://pythonhosted.org/syspy/>`__
+
+**Install via PyPi**
+
+.. code:: shell
+
+    pip install syspy
+
 .. code:: python
 
     from syspy import CPU
@@ -99,4 +107,6 @@ Kurulum
 Gereksinim Kurulumu
 ===================
 
-``pip install -r requirements.txt``
+.. code:: shell
+
+	pip install -r requirements.txt
