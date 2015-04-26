@@ -12,6 +12,8 @@ Kullanmadan önce eğer gerekli kütüphane yok ise onu kurmanız gerekli. **sys
 pip install syspy
 ~~~~
 
+#Usage
+
 ~~~~{.python}
 from syspy import CPU
 from syspy import Disk
