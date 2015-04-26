@@ -15,6 +15,9 @@ Kullanmadan önce eğer gerekli kütüphane yok ise onu kurmanız gerekli.
 
     pip install syspy
 
+Usage
+=====
+
 .. code:: python
 
     from syspy import CPU
