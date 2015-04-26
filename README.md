@@ -4,6 +4,14 @@ Windows sistem bilgilerini Python ile alırsınız. Aslında zaten var olan bir 
 
 Kullanmadan önce eğer gerekli kütüphane yok ise onu kurmanız gerekli. **syspy**, gösterdiği verileri **psutil** ile sağlar.
 
+[Manual Page](https://pythonhosted.org/syspy/)
+
+**Install via PyPi**
+
+~~~~{.shell}
+pip install syspy
+~~~~
+
 ~~~~{.python}
 from syspy import CPU
 from syspy import Disk
