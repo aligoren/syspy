@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Syspy by aligoren</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Syspy</h1>
+      <h2 class="project-tagline">Windows System Information Tool with Python.</h2>
+      <a href="https://github.com/aligoren/syspy" class="btn">View on GitHub</a>
+      <a href="https://github.com/aligoren/syspy/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/aligoren/syspy/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="windows-system-information-tool-with-python" class="anchor" href="#windows-system-information-tool-with-python" aria-hidden="true"><span class="octicon octicon-link"></span></a>Windows System Information Tool with Python</h1>
+
+<p>Windows sistem bilgilerini Python ile alırsınız. Aslında zaten var olan bir kütüphanenin daha da basitleştirilmiş halidir.</p>
+
+<p>Kullanmadan önce eğer gerekli kütüphane yok ise onu kurmanız gerekli. <strong>syspy</strong>, gösterdiği verileri <strong>psutil</strong> ile sağlar.</p>
+
+<p><strong>Manual Pages (class diagrams, class, methods)</strong></p>
+
+<p><a href="https://pythonhosted.org/syspy/">Manual Page</a> </p>
+
+<p><strong>syspy on Read the Docs</strong></p>
+
+<p><a href="http://syspy.readthedocs.org/en/latest/">syspy on RTD</a></p>
+
+<p><strong>Install via PyPi</strong></p>
+
+<div class="highlight highlight-shell"><pre>pip install syspy</pre></div>
+
+<div class="highlight highlight-python"><pre><span class="pl-k">from</span> syspy <span class="pl-k">import</span> CPU
+<span class="pl-k">from</span> syspy <span class="pl-k">import</span> Disk
+<span class="pl-k">from</span> syspy <span class="pl-k">import</span> Info
+<span class="pl-k">from</span> syspy <span class="pl-k">import</span> Memory
+<span class="pl-k">from</span> syspy <span class="pl-k">import</span> Network
+
+cpu <span class="pl-k">=</span> CPU()
+
+<span class="pl-k">print</span>(cpu.getCpuTimes())
+
+disk <span class="pl-k">=</span> Disk()
+
+a,b,c,d,e,f,g <span class="pl-k">=</span> disk.getDiskPartitions()
+
+<span class="pl-k">print</span>(<span class="pl-s"><span class="pl-pds">"</span>Part Device: <span class="pl-c1">{}</span><span class="pl-cce">\n</span>Usage Total: <span class="pl-c1">{}</span><span class="pl-cce">\n</span>Usage Used: <span class="pl-c1">{}</span><span class="pl-cce">\n</span>Usage Free: <span class="pl-c1">{}</span><span class="pl-pds">"</span></span> \
+            <span class="pl-s"><span class="pl-pds">"</span><span class="pl-cce">\n</span>Usage Percent: <span class="pl-c1">{}</span><span class="pl-cce">\n</span>Part Type: <span class="pl-c1">{}</span><span class="pl-cce">\n</span>Part Mountpoint: <span class="pl-c1">{}</span><span class="pl-pds">"</span></span>.format(a,b,c,d,e,f,g))
+
+info <span class="pl-k">=</span> Info()
+
+<span class="pl-k">print</span>(info.getBootTime())
+
+memory <span class="pl-k">=</span> Memory()
+
+a,b,c,d,e,f <span class="pl-k">=</span> memory.getSwapMemory()
+<span class="pl-k">print</span>(<span class="pl-s"><span class="pl-pds">"</span>Total: <span class="pl-c1">{0}</span> Used: <span class="pl-c1">{1}</span> Free: <span class="pl-c1">{2}</span> Percent: <span class="pl-c1">{3}</span> Sin: <span class="pl-c1">{4}</span> Sout: <span class="pl-c1">{5}</span><span class="pl-pds">"</span></span>.format(a,b,c,d,e,f))
+
+network <span class="pl-k">=</span> Network()
+
+<span class="pl-k">print</span>(network.getNetConnections())</pre></div>
+
+<h1>
+<a id="neleri-gösterir" class="anchor" href="#neleri-g%C3%B6sterir" aria-hidden="true"><span class="octicon octicon-link"></span></a>Neleri Gösterir?</h1>
+
+<p><strong>CPU</strong>:</p>
+
+<pre><code>CPU Times, CPU Percent, CPU Percent Per CPU, CPU Percent Times, CPU Count, CPU Affinity
+</code></pre>
+
+<p><strong>Disk</strong>:</p>
+
+<pre><code>Disk Partitions, Disk Usage, Disk I/O Counters
+</code></pre>
+
+<p><strong>Information</strong>:</p>
+
+<pre><code>Users, Boot Time, Process Iteration Tool
+</code></pre>
+
+<p><strong>Memory</strong>:</p>
+
+<pre><code>Virtual Memory, Swap Memory, Memory Info, Memory Info(Extend), Memory Percent, Memory Map
+</code></pre>
+
+<p><strong>Network</strong>:</p>
+
+<pre><code>Network I/O Counters, Net Connections
+</code></pre>
+
+<p>Şimdilik bu özellikleri sağlamakta. Test dosyalarına bakabilirsiniz.</p>
+
+<p><strong>Test Files</strong>:</p>
+
+<pre><code>cpu --
+    \test.py
+disk --
+    \test.py
+info --
+    \test.py
+memory --
+    \test.py
+network --
+    \test.py 
+</code></pre>
+
+<h1>
+<a id="kurulum" class="anchor" href="#kurulum" aria-hidden="true"><span class="octicon octicon-link"></span></a>Kurulum</h1>
+
+<div class="highlight highlight-shell"><pre>python setup.py install</pre></div>
+
+<h1>
+<a id="gereksinim-kurulumu" class="anchor" href="#gereksinim-kurulumu" aria-hidden="true"><span class="octicon octicon-link"></span></a>Gereksinim Kurulumu</h1>
+
+<p><code>pip install -r requirements.txt</code></p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/aligoren/syspy">Syspy</a> is maintained by <a href="https://github.com/aligoren">aligoren</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
+
